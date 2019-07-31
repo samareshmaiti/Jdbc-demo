@@ -1,24 +1,25 @@
 package com.stackroute;
-
-/**
- * Hello world!
- *
- */
-public class App 
-{
-    public static void main( String[] args )
-    {
-        JdbcBasicDemo jdbc=new JdbcBasicDemo();
+public class App {
+    public static void main(String[] args) {
+        //implementation of JdbcBasicDemo class
+        JdbcBasicDemo jdbc = new JdbcBasicDemo();
         jdbc.displayUser();
         jdbc.getUserByName("samaresh");
-        DatabaseMetaDataDemo data=new DatabaseMetaDataDemo();
+        //implementation of DatabaseMetaDataDemo class
+        DatabaseMetaDataDemo data = new DatabaseMetaDataDemo();
         data.showMetaData();
-        JdbcBatchProcessingDemo jdbcBatchProcessingDemo=new JdbcBatchProcessingDemo();
+        //implementation of JdbcBatchProcessingDemo class
+        JdbcBatchProcessingDemo jdbcBatchProcessingDemo = new JdbcBatchProcessingDemo();
         jdbcBatchProcessingDemo.batchProcessor();
-        ResultSetMetaDataDemo resultSetMetaDataDemo=new ResultSetMetaDataDemo();
+        //implementation of ResultSetMetaDataDemo class
+        ResultSetMetaDataDemo resultSetMetaDataDemo = new ResultSetMetaDataDemo();
         resultSetMetaDataDemo.resultSetMetaData();
-        RowSetDemo rowSetDemo=new RowSetDemo();
+        //implementation of RowSetDemo class
+        RowSetDemo rowSetDemo = new RowSetDemo();
         rowSetDemo.resultSetMetaData();
+        //implementation of JdbcTransactionDemo class
+        JdbcTransactionDemo jdbcTransactionDemo = new JdbcTransactionDemo();
+        jdbcTransactionDemo.jdbcTransaction();
 
 
     }
