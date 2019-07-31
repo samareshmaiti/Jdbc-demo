@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.stackroute.AppTest" time="0.048" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.stackroute.AppTest" time="0.034" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="gnome"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/cgi/Documents/SpringJdbcDemo/jdbcDemo/target/surefire/surefirebooter10439301050298997979.jar /home/cgi/Documents/SpringJdbcDemo/jdbcDemo/target/surefire 2019-07-31T13-56-43_123-jvmRun1 surefire7329960816348269348tmp surefire_08014347050303063096tmp"/>
+    <property name="sun.java.command" value="/home/cgi/Documents/SpringJdbcDemo/jdbcDemo/target/surefire/surefirebooter3158446084324279445.jar /home/cgi/Documents/SpringJdbcDemo/jdbcDemo/target/surefire 2019-07-31T14-47-20_376-jvmRun1 surefire809960756440525158tmp surefire_09284569588965643973tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/cgi/Documents/SpringJdbcDemo/jdbcDemo/target/test-classes:/home/cgi/Documents/SpringJdbcDemo/jdbcDemo/target/classes:/home/cgi/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/cgi/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/cgi/.m2/repository/mysql/mysql-connector-java/8.0.17/mysql-connector-java-8.0.17.jar:/home/cgi/.m2/repository/com/google/protobuf/protobuf-java/3.6.1/protobuf-java-3.6.1.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -32,7 +32,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/home/cgi/Documents/SpringJdbcDemo/jdbcDemo/target/surefire/surefirebooter10439301050298997979.jar"/>
+    <property name="surefire.real.class.path" value="/home/cgi/Documents/SpringJdbcDemo/jdbcDemo/target/surefire/surefirebooter3158446084324279445.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.3+7-Ubuntu-1ubuntu219.04.1"/>
     <property name="user.name" value="cgi"/>
